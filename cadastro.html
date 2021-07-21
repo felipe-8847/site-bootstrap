@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/stayle.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" >Vem Da Terra</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-item" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="dropdown">
+                <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://github.com/felipe-8847?tab=repositories">Github</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/felipe-alves-45b93a8b/">Linkdin</a></li>
+                  <li><a class="dropdown-item" href="https://pt-br.facebook.com/">Facebook</a></li>
+                </ul>
+              </div>
+              
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Pagina inicial</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/sobre.html">Sobre nos</a>
+              </li>
+                  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="titulo"><h2>Faça o seu cadastro</h2></div>
+
+      <form>
+        <div class="row mb-3">
+            <label for="name" id="name" class="col-sm-2 col-form-label">Nome</label>
+            <div class="col-sm-10">
+              <input type="text" placeholder="Digite o seu nome" class="form-control"onkeyup='validarNome()'>
+              <div id='txtNome'></div>
+            </div>
+          </div>
+
+        <div class="row mb-3">
+          <label for="inputEmail3" id="email"class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Digite o seu email"  onkeyup=' validaEmail()'>
+            <div id='txtNome'></div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" id="senha" class="col-sm-2 col-form-label" placeholder="Digite sua senha">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+ 
+        <button type="submit" class="btn btn-success">Comfirmar</button>
+      </form>
+
+      <footer class="container">
+        <p>Author: Felipe Alves</p>
+        <p><a href="mailto:felipe@example.com">felipe@example.com</a></p>
+      </footer>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/assets/js/script.js"></script>
+
+</body>
+</html>

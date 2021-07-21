@@ -1,0 +1,20 @@
+body {
+    padding: 20px;
+    background-color: rgba(202, 155, 155, 0.5);
+}
+
+.card {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.carousel{
+    margin-bottom: 30px;
+}
+
+
+footer {
+    position: 0; 
+    bottom: 0px; 
+    text-align:center;
+}
